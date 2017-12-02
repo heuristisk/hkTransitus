@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8BF382BB1FD3527800BDFCD8 /* hkTransitus.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF382B91FD3527800BDFCD8 /* hkTransitus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF382C21FD352BA00BDFCD8 /* SideMenuTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF382C11FD352BA00BDFCD8 /* SideMenuTransitionViewController.swift */; };
+		8BF382C41FD352C600BDFCD8 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF382C31FD352C600BDFCD8 /* UINavigationControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BF382B61FD3527800BDFCD8 /* hkTransitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hkTransitus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF382B91FD3527800BDFCD8 /* hkTransitus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hkTransitus.h; sourceTree = "<group>"; };
 		8BF382BA1FD3527800BDFCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF382C11FD352BA00BDFCD8 /* SideMenuTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTransitionViewController.swift; sourceTree = "<group>"; };
+		8BF382C31FD352C600BDFCD8 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				8BF382B91FD3527800BDFCD8 /* hkTransitus.h */,
 				8BF382BA1FD3527800BDFCD8 /* Info.plist */,
+				8BF382C11FD352BA00BDFCD8 /* SideMenuTransitionViewController.swift */,
+				8BF382C31FD352C600BDFCD8 /* UINavigationControllerExtension.swift */,
 			);
 			path = hkTransitus;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 				TargetAttributes = {
 					8BF382B51FD3527800BDFCD8 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF382C21FD352BA00BDFCD8 /* SideMenuTransitionViewController.swift in Sources */,
+				8BF382C41FD352C600BDFCD8 /* UINavigationControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 		8BF382BF1FD3527800BDFCD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +276,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.heuristisk.hkTransitus;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +285,7 @@
 		8BF382C01FD3527800BDFCD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
