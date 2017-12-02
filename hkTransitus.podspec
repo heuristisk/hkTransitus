@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'hkTransitus'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'It is a side menu transition like LinkedIn style.'
  
   s.description      = <<-DESC
