@@ -1,0 +1,6 @@
+framework module hkTransitus {
+  umbrella header "hkTransitus-umbrella.h"
+
+  export *
+  module * { export * }
+}

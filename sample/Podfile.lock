@@ -1,0 +1,12 @@
+PODS:
+  - hkTransitus (1.0.1)
+
+DEPENDENCIES:
+  - hkTransitus
+
+SPEC CHECKSUMS:
+  hkTransitus: 7fad9cea4d410c9fee5afc2a872f65b6679fe76e
+
+PODFILE CHECKSUM: fd4c1e634d13c612dbca4dddc7683163226d3ec1
+
+COCOAPODS: 1.4.0.beta.2
