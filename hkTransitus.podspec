@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'hkMotus'
+  s.name             = 'hkTransitus'
   s.version          = '1.0.0'
   s.summary          = 'It is a side menu transition like LinkedIn style.'
  
@@ -13,7 +13,7 @@ It is a side menu transition like LinkedIn style
   s.source           = { :git => 'https://github.com/heuristisk/hkTransitus', :tag => s.version.to_s }
  
   s.ios.deployment_target = '8.0'
-  s.source_files = 'hkMotus/*'
+  s.source_files = 'hkTransitus/*'
  
 end
 
