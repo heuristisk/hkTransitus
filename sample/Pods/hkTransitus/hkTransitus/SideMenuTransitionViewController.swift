@@ -21,14 +21,14 @@ public extension SideMenuInteractionDelegation {
     func goBackHome() { }
 }
 
-public class SideMenuTransitionViewController<T: UIViewController & SideMenuInteraction>: UIViewController, SideMenuInteractionDelegation {
+open class SideMenuTransitionViewController<T: UIViewController & SideMenuInteraction>: UIViewController, SideMenuInteractionDelegation {
     private let TAG = 1
     private var width: CGFloat!
     private var originalTransform: CGAffineTransform?
     weak var delegate: SideMenuInteractionDelegation?
     private var vc: T?
 
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         width = self.view.bounds.width
         UIApplication.shared.keyWindow?.backgroundColor = #colorLiteral(red: 0.1612666561, green: 0.1612666561, blue: 0.1612666561, alpha: 1)

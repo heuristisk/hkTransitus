@@ -73,11 +73,11 @@
 			children = (
 				8BF382D11FD35D7900BDFCD8 /* AppDelegate.swift */,
 				8BF382D31FD35D7900BDFCD8 /* HomeViewController.swift */,
+				8BF382E31FD35FBC00BDFCD8 /* MenuViewController.swift */,
 				8BF382D51FD35D7900BDFCD8 /* Main.storyboard */,
 				8BF382D81FD35D7900BDFCD8 /* Assets.xcassets */,
 				8BF382DA1FD35D7900BDFCD8 /* LaunchScreen.storyboard */,
 				8BF382DD1FD35D7900BDFCD8 /* Info.plist */,
-				8BF382E31FD35FBC00BDFCD8 /* MenuViewController.swift */,
 			);
 			path = sample;
 			sourceTree = "<group>";

@@ -1,11 +1,11 @@
 PODS:
-  - hkTransitus (1.0.1)
+  - hkTransitus (1.0.2)
 
 DEPENDENCIES:
   - hkTransitus
 
 SPEC CHECKSUMS:
-  hkTransitus: 7fad9cea4d410c9fee5afc2a872f65b6679fe76e
+  hkTransitus: 717259ddf8b8538e151ce495d33cd9621eb009a2
 
 PODFILE CHECKSUM: fd4c1e634d13c612dbca4dddc7683163226d3ec1
 
