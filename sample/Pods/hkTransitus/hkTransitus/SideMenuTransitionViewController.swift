@@ -34,17 +34,17 @@ open class SideMenuTransitionViewController<T: UIViewController & SideMenuIntera
         UIApplication.shared.keyWindow?.backgroundColor = #colorLiteral(red: 0.1612666561, green: 0.1612666561, blue: 0.1612666561, alpha: 1)
     }
 
-    public func goBackHome() {
+    open func goBackHome() {
         hideSideMenu {}
     }
 
-    public func onDidTapSideMenu(id: Int, completionAnimation: (()-> Void)?) {
+    open func onDidTapSideMenu(id: Int, completionAnimation: (()-> Void)?) {
         hideSideMenu {
             completionAnimation?()
         }
     }
 
-    func showSideMenu(viewController: T) {
+    open func showSideMenu(viewController: T) {
 
         vc = viewController
         vc?.delegate = self

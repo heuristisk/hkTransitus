@@ -27,10 +27,9 @@ class HomeViewController: SideMenuTransitionViewController<MenuViewController> {
     }
 
     @IBAction func onTapButton(_ sender: Any) {
-
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "SideMenuViewController") as! MenuViewController
-        showSideMenu(viewController: vc)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
+        self.showSideMenu(viewController: vc)
     }
 }
 
